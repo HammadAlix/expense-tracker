@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.total {
+  font-size: 18px;
+  margin: 10px 0 20px 0;
+}
+
+.filter {
+  margin: 20px 0;
+}
+
+.filter select {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.expense {
+  background: white;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+  padding: 30px;
+}
